@@ -7,5 +7,5 @@ Clone the repository and run the script using `python3` command. You can also mo
 cd ~/
 git clone https://github.com/kinghub007/Random_Password_Generator.git
 cd Random_Password_Generator
-python3 passgen.py
+python3 passgen
 ```
