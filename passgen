@@ -10,8 +10,10 @@ special_characters = "[]{}()*;_-/!&%?."
 
 chars = upper + lower + numbers + special_characters
 
-length = 16
+length = input("\nEnter password length (Minimum 14 characters): ")
 
-password = "".join(random.sample(chars,length))
-
-print(password)
+if int(length) >= 14:
+    password = "".join(random.sample(chars,int(length)))
+    print("\nYour password is:",password)
+else:
+    print("\nInvalid input!")
