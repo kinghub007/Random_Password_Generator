@@ -10,7 +10,7 @@ special_characters = "[]{}()*;_-/!&%?."
 
 chars = upper + lower + numbers + special_characters
 
-length = input("\nEnter password length (Minimum 14 characters): ")
+length = input("\nEnter password length (Min. 14 - Max. 78 characters): ")
 
 if int(length) >= 14:
     password = "".join(random.sample(chars,int(length)))
