@@ -17,7 +17,7 @@ if int(length) >= 14 and int(length) <= 78:
     print("\nYour password is:",password)
 
 elif int(length) > 78:
-    print("\nInvalid input! The password length should be between 14 to 78 characters.")
+    print("\nInvalid input! The password length should be 14 to 78 characters.")
 
 else: 
     print("\nInvalid input!")
