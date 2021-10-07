@@ -12,8 +12,12 @@ chars = upper + lower + numbers + special_characters
 
 length = input("\nEnter password length (Min. 14 - Max. 78 characters): ")
 
-if int(length) >= 14:
+if int(length) >= 14 and int(length) <= 78:
     password = "".join(random.sample(chars,int(length)))
     print("\nYour password is:",password)
-else:
+
+elif int(length) > 78:
+    print("\nInvalid input! The password length should be between 14 to 78 characters.")
+
+else: 
     print("\nInvalid input!")
