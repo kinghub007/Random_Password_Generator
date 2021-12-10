@@ -6,6 +6,6 @@ Clone the repository and run the script using `python3` command. You can also mo
 ```bash
 cd ~/
 git clone https://github.com/kinghub007/random_password_generator.git
-cd Random_Password_Generator
+cd random_password_generator
 python3 passgen
 ```
